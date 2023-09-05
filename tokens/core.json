@@ -303,6 +303,10 @@
           "value": "{core.dimension.50}",
           "type": "spacing"
         },
+        "xxs": {
+          "value": "{core.dimension.25}",
+          "type": "spacing"
+        },
         "s": {
           "value": "{core.dimension.100}",
           "type": "spacing"

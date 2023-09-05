@@ -9,6 +9,12 @@
           }
         }
       }
+    },
+    "border-radius": {
+      "action": {
+        "value": "{core.boder-radius.pill}",
+        "type": "borderRadius"
+      }
     }
   }
 }

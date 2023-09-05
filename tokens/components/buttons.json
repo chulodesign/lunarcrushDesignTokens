@@ -1,0 +1,24 @@
+{
+  "button": {
+    "spacing": {
+      "s": {
+        "spaceBetween": {
+          "value": "{core.dimension.25}",
+          "type": "spacing",
+          "description": "This token is used to define the spacing between elements inside a small button."
+        }
+      },
+      "m": {
+        "spaceBetween": {
+          "value": "{core.dimension.50}",
+          "type": "spacing",
+          "description": "This token is used to define the spacing between elements inside a medium button."
+        }
+      }
+    },
+    "border-radius": {
+      "value": "{core.boder-radius.pill}",
+      "type": "borderRadius"
+    }
+  }
+}

@@ -1,6 +1,9 @@
 {
   "tokenSetOrder": [
     "core",
-    "web-dark"
+    "web-dark",
+    "components",
+    "components/buttons",
+    "components/row"
   ]
 }
