@@ -1,0 +1,14 @@
+{
+  "semantic": {
+    "space": {
+      "page": {
+        "inset": {
+          "none": {
+            "type": "spacing",
+            "value": "{core.dimension.0}"
+          }
+        }
+      }
+    }
+  }
+}
