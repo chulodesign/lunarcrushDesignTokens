@@ -15,6 +15,24 @@
         "value": "{core.boder-radius.pill}",
         "type": "borderRadius"
       }
+    },
+    "color": {
+      "action": {
+        "cta": {
+          "default": {
+            "background-color": {
+              "value": "{core.aquamarine.500}",
+              "type": "color"
+            }
+          },
+          "oulined": {
+            "border-color": {
+              "value": "{core.blueSmoke.50-15%opacity}",
+              "type": "color"
+            }
+          }
+        }
+      }
     }
   }
 }

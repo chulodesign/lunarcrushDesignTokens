@@ -5,10 +5,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core": "enabled",
-      "web-dark": "enabled",
-      "components": "disabled",
-      "components/buttons": "disabled",
-      "components/row": "disabled"
+      "web-dark": "enabled"
     }
   }
 ]
