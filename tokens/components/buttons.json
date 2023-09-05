@@ -2,23 +2,111 @@
   "button": {
     "spacing": {
       "s": {
-        "spaceBetween": {
-          "value": "{core.dimension.25}",
-          "type": "spacing",
-          "description": "This token is used to define the spacing between elements inside a small button."
+        "@1680": {
+          "spaceAround": {
+            "value": "{core.dimension.50}, {core.dimension.100}",
+            "type": "spacing",
+            "description": "This token is used to define the spacing between elements inside a small button."
+          },
+          "spaceBetween": {
+            "value": "{core.dimension.25}",
+            "type": "spacing",
+            "description": "This token is used to define the spacing between elements inside a small button."
+          }
+        },
+        "@375": {
+          "spaceAround": {
+            "value": "{core.dimension.50}, {core.dimension.100}",
+            "type": "spacing"
+          },
+          "spaceBetween": {
+            "value": "{core.dimension.25}",
+            "type": "spacing"
+          }
         }
       },
       "m": {
-        "spaceBetween": {
-          "value": "{core.dimension.50}",
-          "type": "spacing",
-          "description": "This token is used to define the spacing between elements inside a medium button."
+        "@1680": {
+          "spaceBetween": {
+            "value": "{core.dimension.50}",
+            "type": "spacing",
+            "description": "This token is used to define the spacing between elements inside a medium button."
+          },
+          "spaceAround": {
+            "value": "{core.dimension.100}, {core.dimension.150}",
+            "type": "spacing"
+          }
+        },
+        "@375": {
+          "spaceBetween": {
+            "value": "{core.dimension.50}",
+            "type": "spacing",
+            "description": "This token is used to define the spacing between elements inside a medium button."
+          },
+          "spaceAround": {
+            "value": "{core.dimension.75}, {core.dimension.150}",
+            "type": "spacing"
+          }
         }
       }
     },
     "border-radius": {
       "value": "{core.boder-radius.pill}",
       "type": "borderRadius"
+    },
+    "m": {
+      "@1680": {
+        "font": {
+          "value": {
+            "fontFamily": "{core.fontFamilies.fakt}",
+            "fontWeight": "{fontWeights.fakt-semiBold}",
+            "fontSize": "{fontSize.75}"
+          },
+          "type": "typography"
+        }
+      },
+      "@375": {
+        "font": {
+          "value": {
+            "fontFamily": "{core.fontFamilies.fakt}",
+            "fontWeight": "{fontWeights.fakt-semiBold}",
+            "fontSize": "{fontSize.75}"
+          },
+          "type": "typography"
+        }
+      }
+    },
+    "s": {
+      "@1680": {
+        "font": {
+          "value": {
+            "fontFamily": "{core.fontFamilies.fakt}",
+            "fontWeight": "{fontWeights.fakt-semiBold}",
+            "fontSize": "{fontSize.75}"
+          },
+          "type": "typography"
+        }
+      },
+      "@375": {
+        "font": {
+          "value": {
+            "fontFamily": "{core.fontFamilies.fakt}",
+            "fontWeight": "{fontWeights.fakt-semiBold}",
+            "fontSize": "{fontSize.75}"
+          },
+          "type": "typography"
+        }
+      }
+    },
+    "cta": {
+      "default": {
+        "background": {
+          "color": {
+            "value": "{semantic.color.action.cta.primary..default.background-color}",
+            "type": "color"
+          }
+        }
+      }
     }
   }
 }

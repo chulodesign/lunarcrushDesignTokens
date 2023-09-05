@@ -19,18 +19,50 @@
     "color": {
       "action": {
         "cta": {
-          "default": {
-            "background-color": {
-              "value": "{core.aquamarine.500}",
-              "type": "color"
-            }
-          },
-          "oulined": {
-            "border-color": {
-              "value": "{core.blueSmoke.50-15%opacity}",
-              "type": "color"
+          "primary": {
+            "": {
+              "default": {
+                "background-color": {
+                  "value": "{core.aquamarine.500}",
+                  "type": "color"
+                }
+              },
+              "outlined": {
+                "border-color": {
+                  "value": "{core.blueSmoke.50-15%opacity}",
+                  "type": "color"
+                }
+              },
+              "hover": {
+                "background-color": {
+                  "value": "{core.aquamarine.400}",
+                  "type": "color"
+                }
+              },
+              "inactive": {
+                "background-color": {
+                  "value": "{core.blueSmoke.600}",
+                  "type": "color"
+                }
+              }
             }
           }
+        }
+      }
+    },
+    "size": {
+      "web": {
+        "s": {
+          "value": "375px",
+          "type": "spacing"
+        },
+        "m": {
+          "value": "1024px",
+          "type": "spacing"
+        },
+        "l": {
+          "value": "1680",
+          "type": "spacing"
         }
       }
     }
