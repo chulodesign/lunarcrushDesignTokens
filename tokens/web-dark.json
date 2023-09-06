@@ -142,6 +142,26 @@
           "value": "{core.pinkFlamingo.500}",
           "type": "color"
         }
+      },
+      "bg": {
+        "default": {
+          "value": "{core.blueSmoke.900}",
+          "type": "color"
+        },
+        "weak": {
+          "value": "{core.blueSmoke.800}",
+          "type": "color"
+        }
+      },
+      "fg": {
+        "default": {
+          "value": "{core.blueSmoke.50}",
+          "type": "color"
+        },
+        "weak": {
+          "value": "{core.blueSmoke.400}",
+          "type": "color"
+        }
       }
     }
   }
