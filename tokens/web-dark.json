@@ -122,6 +122,20 @@
             }
           }
         }
+      },
+      "boder": {
+        "value": "{core.blueSmoke.50-15%opacity}",
+        "type": "color"
+      },
+      "dataViz": {
+        "rank": {
+          "value": "{core.lochmara.500}",
+          "type": "color"
+        },
+        "interactions": {
+          "value": "{core.pinkFlamingo.500}",
+          "type": "color"
+        }
       }
     }
   }

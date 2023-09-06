@@ -358,6 +358,12 @@
           "type": "spacing"
         }
       }
+    },
+    "lochmara": {
+      "500": {
+        "value": "#18A0FB",
+        "type": "color"
+      }
     }
   },
   "fontSize": {

@@ -33,6 +33,36 @@
         "value": "{core.boder-radius.pill}",
         "type": "borderRadius"
       }
+    },
+    "border-color": {
+      "top": {
+        "value": {
+          "color": "{semantic.color.action.cta.secondary.default.border-color}",
+          "width": "1px",
+          "style": "solid"
+        },
+        "type": "border"
+      }
+    },
+    "cta": {
+      "default": {
+        "text-color": {
+          "value": "{semantic.color.action.cta.secondary.default.text-color}",
+          "type": "color"
+        }
+      },
+      "hover": {
+        "text-color": {
+          "value": "{semantic.color.action.cta.secondary.hover.text-color}",
+          "type": "color"
+        }
+      },
+      "active": {
+        "text-color": {
+          "value": "{core.aquamarine.500}",
+          "type": "color"
+        }
+      }
     }
   }
 }
