@@ -4,6 +4,32 @@
       "text-color": {
         "value": "{core.blueSmoke.50}",
         "type": "color"
+      },
+      "spacing": {
+        "spaceBetween": {
+          "value": "{core.dimension.50}",
+          "type": "spacing"
+        }
+      }
+    },
+    "font": {
+      "large": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt}",
+          "fontWeight": "{fontWeights.fakt-semiBold}",
+          "fontSize": "{fontSize.125}"
+        },
+        "type": "typography"
+      }
+    },
+    "logo-size": {
+      "large": {
+        "value": "{core.dimension.200}",
+        "type": "sizing"
+      },
+      "small": {
+        "value": "{core.dimension.150}",
+        "type": "sizing"
       }
     }
   }
