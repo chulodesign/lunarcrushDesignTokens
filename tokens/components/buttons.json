@@ -2,7 +2,7 @@
   "button": {
     "spacing": {
       "s": {
-        "@1680": {
+        "lBreakpoint": {
           "spaceAround": {
             "value": "{core.dimension.50}, {core.dimension.100}",
             "type": "spacing",
@@ -14,7 +14,7 @@
             "description": "This token is used to define the spacing between elements inside a small button."
           }
         },
-        "@375": {
+        "sBreakpoint": {
           "spaceAround": {
             "value": "{core.dimension.50}, {core.dimension.100}",
             "type": "spacing"
@@ -26,7 +26,7 @@
         }
       },
       "m": {
-        "@1680": {
+        "lBreakpoint": {
           "spaceBetween": {
             "value": "{core.dimension.50}",
             "type": "spacing",
@@ -37,7 +37,7 @@
             "type": "spacing"
           }
         },
-        "@375": {
+        "sBreakpoint": {
           "spaceBetween": {
             "value": "{core.dimension.50}",
             "type": "spacing",
@@ -55,7 +55,7 @@
       "type": "borderRadius"
     },
     "m": {
-      "@1680": {
+      "lBreakpoint": {
         "font": {
           "value": {
             "fontFamily": "{core.fontFamilies.fakt}",
@@ -65,7 +65,7 @@
           "type": "typography"
         }
       },
-      "@375": {
+      "sBreakpoint": {
         "font": {
           "value": {
             "fontFamily": "{core.fontFamilies.fakt}",
@@ -77,7 +77,7 @@
       }
     },
     "s": {
-      "@1680": {
+      "lBreakpoint": {
         "font": {
           "value": {
             "fontFamily": "{core.fontFamilies.fakt}",
@@ -87,7 +87,7 @@
           "type": "typography"
         }
       },
-      "@375": {
+      "sBreakpoint": {
         "font": {
           "value": {
             "fontFamily": "{core.fontFamilies.fakt}",

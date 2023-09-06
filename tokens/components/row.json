@@ -17,6 +17,22 @@
           "type": "spacing"
         }
       }
+    },
+    "icon-size": {
+      "s": {
+        "value": "{semantic.size.icon.xs}",
+        "type": "sizing"
+      },
+      "m": {
+        "value": "{semantic.size.icon.l}",
+        "type": "sizing"
+      }
+    },
+    "icon-border-radius": {
+      "pill": {
+        "value": "{core.boder-radius.pill}",
+        "type": "borderRadius"
+      }
     }
   }
 }
