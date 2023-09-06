@@ -162,6 +162,18 @@
           "value": "{core.blueSmoke.400}",
           "type": "color"
         }
+      },
+      "notification": {
+        "default": {
+          "value": "{core.blueGem.500}",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "default": {
+          "value": "{core.blueSmoke.400}",
+          "type": "color"
+        }
       }
     }
   }
