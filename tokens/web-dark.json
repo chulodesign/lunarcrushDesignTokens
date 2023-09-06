@@ -56,6 +56,12 @@
           "value": "{core.dimension.250}",
           "type": "sizing"
         }
+      },
+      "dot": {
+        "m": {
+          "value": "{core.dimension.50}",
+          "type": "sizing"
+        }
       }
     },
     "color": {
