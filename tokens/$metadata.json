@@ -2,8 +2,10 @@
   "tokenSetOrder": [
     "core",
     "web-dark",
+    "brand-dark",
     "components",
     "components/buttons",
-    "components/row"
+    "components/row",
+    "components/nav.lbreakpoint"
   ]
 }

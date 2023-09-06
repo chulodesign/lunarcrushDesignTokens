@@ -1,0 +1,10 @@
+{
+  "brand": {
+    "logo": {
+      "text-color": {
+        "value": "{core.blueSmoke.50}",
+        "type": "color"
+      }
+    }
+  }
+}
