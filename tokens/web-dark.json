@@ -8,6 +8,14 @@
             "value": "{core.dimension.0}"
           }
         }
+      },
+      "title": {
+        "spaceAround": {
+          "widget": {
+            "value": "{core.dimension.50}, {core.dimension.0}",
+            "type": "spacing"
+          }
+        }
       }
     },
     "border-radius": {
@@ -173,6 +181,18 @@
         "default": {
           "value": "{core.blueSmoke.400}",
           "type": "color"
+        }
+      }
+    },
+    "title": {
+      "widget": {
+        "font": {
+          "value": {
+            "fontFamily": "{core.fontFamilies.fakt-tt}",
+            "fontWeight": "{fontWeights.fakt-tt-medium}",
+            "fontSize": "{fontSize.125}"
+          },
+          "type": "typography"
         }
       }
     }
