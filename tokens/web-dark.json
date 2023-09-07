@@ -182,6 +182,22 @@
           "value": "{core.blueSmoke.400}",
           "type": "color"
         }
+      },
+      "value": {
+        "negative": {
+          "value": "{core.carnation.500}",
+          "type": "color"
+        },
+        "positive": {
+          "value": "{core.caribeanGreen.500}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "all": {
+          "value": "{core.blueSmoke.50-15%opacity}",
+          "type": "color"
+        }
       }
     },
     "title": {
@@ -195,6 +211,48 @@
           "type": "typography"
         }
       }
+    },
+    "border": {
+      "value": {
+        "color": "{semantic.color.boder}",
+        "width": "1",
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "itemName": {
+      "value": {
+        "fontFamily": "{core.fontFamilies.fakt-tt}",
+        "fontWeight": "{fontWeights.fakt-tt-normal}",
+        "fontSize": "{fontSize.87}"
+      },
+      "type": "typography"
+    },
+    "handler": {
+      "value": {
+        "fontFamily": "{core.fontFamilies.fakt-tt}",
+        "fontWeight": "{fontWeights.fakt-tt-normal}",
+        "fontSize": "{fontSize.75}"
+      },
+      "type": "typography"
+    },
+    "default": {
+      "value": {
+        "fontFamily": "{core.fontFamilies.fakt-tt}",
+        "fontWeight": "{fontWeights.fakt-tt-normal}",
+        "fontSize": "{fontSize.100}"
+      },
+      "type": "typography"
+    }
+  },
+  "cta": {
+    "m": {
+      "value": {
+        "fontFamily": "{core.fontFamilies.fakt}",
+        "fontWeight": "{fontWeights.fakt-semiBold}",
+        "fontSize": "{fontSize.100}"
+      },
+      "type": "typography"
     }
   }
 }
