@@ -1,102 +1,8 @@
 {
   "button": {
-    "spacing": {
-      "s": {
-        "lBreakpoint": {
-          "spaceAround": {
-            "value": "{core.dimension.50}, {core.dimension.100}",
-            "type": "spacing",
-            "description": "This token is used to define the spacing between elements inside a small button."
-          },
-          "spaceBetween": {
-            "value": "{core.dimension.25}",
-            "type": "spacing",
-            "description": "This token is used to define the spacing between elements inside a small button."
-          }
-        },
-        "sBreakpoint": {
-          "spaceAround": {
-            "value": "{core.dimension.50}, {core.dimension.100}",
-            "type": "spacing"
-          },
-          "spaceBetween": {
-            "value": "{core.dimension.25}",
-            "type": "spacing"
-          }
-        }
-      },
-      "m": {
-        "lBreakpoint": {
-          "spaceBetween": {
-            "value": "{core.dimension.50}",
-            "type": "spacing",
-            "description": "This token is used to define the spacing between elements inside a medium button."
-          },
-          "spaceAround": {
-            "value": "{core.dimension.100}, {core.dimension.150}",
-            "type": "spacing"
-          }
-        },
-        "sBreakpoint": {
-          "spaceBetween": {
-            "value": "{core.dimension.50}",
-            "type": "spacing",
-            "description": "This token is used to define the spacing between elements inside a medium button."
-          },
-          "spaceAround": {
-            "value": "{core.dimension.75}, {core.dimension.150}",
-            "type": "spacing"
-          }
-        }
-      }
-    },
     "border-radius": {
       "value": "{core.boder-radius.pill}",
       "type": "borderRadius"
-    },
-    "m": {
-      "lBreakpoint": {
-        "font": {
-          "value": {
-            "fontFamily": "{core.fontFamilies.fakt}",
-            "fontWeight": "{fontWeights.fakt-semiBold}",
-            "fontSize": "{fontSize.100}"
-          },
-          "type": "typography"
-        }
-      },
-      "sBreakpoint": {
-        "font": {
-          "value": {
-            "fontFamily": "{core.fontFamilies.fakt}",
-            "fontWeight": "{fontWeights.fakt-semiBold}",
-            "fontSize": "{fontSize.75}"
-          },
-          "type": "typography"
-        }
-      }
-    },
-    "s": {
-      "lBreakpoint": {
-        "font": {
-          "value": {
-            "fontFamily": "{core.fontFamilies.fakt}",
-            "fontWeight": "{fontWeights.fakt-semiBold}",
-            "fontSize": "{fontSize.75}"
-          },
-          "type": "typography"
-        }
-      },
-      "sBreakpoint": {
-        "font": {
-          "value": {
-            "fontFamily": "{core.fontFamilies.fakt}",
-            "fontWeight": "{fontWeights.fakt-semiBold}",
-            "fontSize": "{fontSize.75}"
-          },
-          "type": "typography"
-        }
-      }
     },
     "cta": {
       "primary": {
@@ -175,7 +81,40 @@
         "s": {
           "value": "{semantic.size.icon.xs}",
           "type": "sizing"
+        },
+        "xl": {
+          "value": "{core.dimension.200}",
+          "type": "sizing"
         }
+      }
+    },
+    "link": {
+      "xs": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt-tt}",
+          "fontWeight": "{fontWeights.fakt-semiBold}",
+          "fontSize": "{fontSize.75}",
+          "textDecoration": "{core.text-decoration.underline}"
+        },
+        "type": "typography"
+      },
+      "s": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt-tt}",
+          "fontWeight": "{fontWeights.fakt-semiBold}",
+          "fontSize": "{fontSize.87}",
+          "textDecoration": "{core.text-decoration.underline}"
+        },
+        "type": "typography"
+      },
+      "m": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt-tt}",
+          "fontWeight": "{fontWeights.fakt-semiBold}",
+          "fontSize": "{fontSize.100}",
+          "textDecoration": "{core.text-decoration.underline}"
+        },
+        "type": "typography"
       }
     }
   }

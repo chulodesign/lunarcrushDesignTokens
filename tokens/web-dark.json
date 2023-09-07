@@ -162,12 +162,12 @@
         }
       },
       "fg": {
-        "default": {
-          "value": "{core.blueSmoke.50}",
-          "type": "color"
-        },
         "weak": {
           "value": "{core.blueSmoke.400}",
+          "type": "color"
+        },
+        "default": {
+          "value": "{core.blueSmoke.50}",
           "type": "color"
         }
       },
@@ -196,6 +196,10 @@
       "border": {
         "all": {
           "value": "{core.blueSmoke.50-15%opacity}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{core.aquamarine.500}",
           "type": "color"
         }
       }
@@ -237,6 +241,14 @@
       "type": "typography"
     },
     "default": {
+      "value": {
+        "fontFamily": "{core.fontFamilies.fakt-tt}",
+        "fontWeight": "{fontWeights.fakt-tt-normal}",
+        "fontSize": "{fontSize.100}"
+      },
+      "type": "typography"
+    },
+    "input": {
       "value": {
         "fontFamily": "{core.fontFamilies.fakt-tt}",
         "fontWeight": "{fontWeights.fakt-tt-normal}",
