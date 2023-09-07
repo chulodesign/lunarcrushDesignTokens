@@ -214,6 +214,14 @@
           },
           "type": "typography"
         }
+      },
+      "page": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt-tt}",
+          "fontWeight": "{fontWeights.fakt-tt-normal}",
+          "fontSize": "{fontSize.212}"
+        },
+        "type": "typography"
       }
     },
     "border": {
