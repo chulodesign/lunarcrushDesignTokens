@@ -183,7 +183,7 @@
           "type": "color"
         }
       },
-      "value": {
+      "value1": {
         "negative": {
           "value": "{core.carnation.500}",
           "type": "color"
@@ -214,7 +214,7 @@
     },
     "border": {
       "value": {
-        "color": "{semantic.color.boder}",
+        "color": "{semantic.color.border}",
         "width": "1",
         "style": "solid"
       },
