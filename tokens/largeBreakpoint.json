@@ -1,48 +1,72 @@
 {
-  "button": {
-    "s": {
-      "spacing": {
-        "spaceAround": {
-          "value": "{core.dimension.50}, {core.dimension.100}",
-          "type": "spacing",
-          "description": "Definition of the padding of a small button at a large Breakpoint (1680)"
+  "largeBreak": {
+    "space": {
+      "button": {
+        "s": {
+          "spacing": {
+            "spaceAround": {
+              "value": "{core.dimension.50}, {core.dimension.100}",
+              "type": "spacing",
+              "description": "Definition of the padding of a small button at a large Breakpoint (1680)"
+            },
+            "spaceBetween": {
+              "value": "{core.dimension.25}",
+              "type": "spacing",
+              "description": "Definition the spacing between elements inside a small button."
+            }
+          }
         },
-        "spaceBetween": {
-          "value": "{core.dimension.25}",
-          "type": "spacing",
-          "description": "Definition the spacing between elements inside a small button."
+        "m": {
+          "spacing": {
+            "spaceAround": {
+              "value": "{core.dimension.100}, {core.dimension.150}",
+              "type": "spacing",
+              "description": "Definition of the padding of a medium button at a large breakpoint (1680)"
+            },
+            "spaceBetween": {
+              "value": "{core.dimension.50}",
+              "type": "spacing",
+              "description": "Definition of the spacing between elements inside a medium button at a large breakpoint (1680)"
+            }
+          }
         }
       }
     },
-    "largeBreak": {
-      "s": {
+    "typography": {
+      "button": {
+        "s": {
+          "value": {
+            "fontFamily": "{core.fontFamilies.fakt-tt}",
+            "fontWeight": "{fontWeights.fakt-semiBold}",
+            "fontSize": "{fontSize.75}"
+          },
+          "type": "typography"
+        },
+        "m": {
+          "value": {
+            "fontFamily": "{core.fontFamilies.fakt}",
+            "fontWeight": "{fontWeights.fakt-semiBold}",
+            "fontSize": "{fontSize.100}"
+          },
+          "type": "typography"
+        }
+      },
+      "pageTitle": {
         "value": {
           "fontFamily": "{core.fontFamilies.fakt-tt}",
-          "fontWeight": "{fontWeights.fakt-semiBold}",
-          "fontSize": "{fontSize.75}"
-        },
-        "type": "typography"
-      },
-      "m": {
-        "value": {
-          "fontFamily": "{core.fontFamilies.fakt}",
-          "fontWeight": "{fontWeights.fakt-semiBold}",
-          "fontSize": "{fontSize.100}"
+          "fontWeight": "{fontWeights.fakt-tt-normal}",
+          "fontSize": "{fontSize.212}"
         },
         "type": "typography"
       }
-    },
-    "m": {
-      "spacing": {
-        "spaceAround": {
-          "value": "{core.dimension.100}, {core.dimension.150}",
-          "type": "spacing",
-          "description": "Definition of the padding of a medium button at a large breakpoint (1680)"
-        },
-        "spaceBetween": {
-          "value": "{core.dimension.50}",
-          "type": "spacing",
-          "description": "Definition of the spacing between elements inside a medium button at a large breakpoint (1680)"
+    }
+  },
+  "large": {
+    "Break": {
+      "space": {
+        "pageTitle": {
+          "value": "{core.dimension.100}, {core.dimension.0}",
+          "type": "spacing"
         }
       }
     }
