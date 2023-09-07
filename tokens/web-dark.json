@@ -214,8 +214,8 @@
     },
     "border": {
       "value": {
-        "color": "{semantic.color.border}",
-        "width": "1",
+        "color": "{semantic.color.boder}",
+        "width": "1px",
         "style": "solid"
       },
       "type": "border"
