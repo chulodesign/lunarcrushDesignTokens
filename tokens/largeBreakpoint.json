@@ -1,7 +1,7 @@
 {
   "largeBreak": {
-    "space": {
-      "button": {
+    "button": {
+      "space": {
         "s": {
           "spacing": {
             "spaceAround": {
@@ -59,15 +59,34 @@
         },
         "type": "typography"
       }
-    }
-  },
-  "large": {
-    "Break": {
+    },
+    "pageTitle": {
       "space": {
-        "pageTitle": {
-          "value": "{core.dimension.100}, {core.dimension.0}",
-          "type": "spacing"
+        "value": "{core.dimension.100}, {core.dimension.0}",
+        "type": "spacing"
+      }
+    },
+    "page": {
+      "space": {
+        "spaceAround": {
+          "default": {
+            "value": "{core.dimension.150}",
+            "type": "spacing"
+          }
+        },
+        "spaceBetween": {
+          "default": {
+            "value": "{core.dimension.150}",
+            "type": "spacing"
+          }
         }
+      }
+    },
+    "container": {
+      "spaceBetween": {
+        "value": "{core.dimension.100}",
+        "type": "spacing",
+        "description": "this token defines the spacing between elements inside a container"
       }
     }
   }

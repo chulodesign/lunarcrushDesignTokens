@@ -2,10 +2,20 @@
   "semantic": {
     "space": {
       "page": {
-        "inset": {
+        "spaceAround": {
           "none": {
             "type": "spacing",
             "value": "{core.dimension.0}"
+          },
+          "default": {
+            "value": "{core.dimension.150}",
+            "type": "spacing"
+          }
+        },
+        "spaceBetween": {
+          "default": {
+            "value": "{core.dimension.150}",
+            "type": "spacing"
           }
         }
       },
