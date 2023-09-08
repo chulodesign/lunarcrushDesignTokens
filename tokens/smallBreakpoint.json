@@ -59,5 +59,22 @@
       },
       "type": "typography"
     }
+  },
+  "smallBreak": {
+    "page": {
+      "spaceAround": {
+        "default": {
+          "value": "{core.dimension.0}, {core.dimension.100}, {core.dimension.100}, {core.dimension.100}",
+          "type": "spacing"
+        }
+      },
+      "spaceBetween": {
+        "default": {
+          "value": "{core.dimension.100}",
+          "type": "spacing",
+          "description": "space between containers"
+        }
+      }
+    }
   }
 }

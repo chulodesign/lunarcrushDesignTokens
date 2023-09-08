@@ -70,7 +70,7 @@
       "space": {
         "spaceAround": {
           "default": {
-            "value": "{core.dimension.150}",
+            "value": "{core.dimension.0}, {core.dimension.150}, {core.dimension.150}, {core.dimension.150}",
             "type": "spacing"
           }
         },
