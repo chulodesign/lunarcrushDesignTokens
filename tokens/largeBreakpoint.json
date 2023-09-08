@@ -50,8 +50,8 @@
         }
       }
     },
-    "typography": {
-      "pageTitle": {
+    "pageTitle": {
+      "default": {
         "value": {
           "fontFamily": "{core.fontFamilies.fakt-tt}",
           "fontWeight": "{fontWeights.fakt-tt-normal}",
@@ -59,19 +59,19 @@
         },
         "type": "typography"
       },
-      "chartAxys": {
+      "space": {
+        "value": "{core.dimension.100}, {core.dimension.0}",
+        "type": "spacing"
+      }
+    },
+    "chartAxys": {
+      "default": {
         "value": {
           "fontFamily": "{core.fontFamilies.fakt-tt}",
           "fontWeight": "{fontWeights.fakt-tt-normal}",
           "fontSize": "{fontSize.87}"
         },
         "type": "typography"
-      }
-    },
-    "pageTitle": {
-      "space": {
-        "value": "{core.dimension.100}, {core.dimension.0}",
-        "type": "spacing"
       }
     },
     "page": {
@@ -95,6 +95,28 @@
         "value": "{core.dimension.100}",
         "type": "spacing",
         "description": "this token defines the spacing between elements inside a container"
+      }
+    },
+    "chart": {
+      "leyend": {
+        "spaceAround": {
+          "value": "{core.dimension.75}, {core.dimension.0}",
+          "type": "spacing"
+        },
+        "spaceBetween": {
+          "value": "{core.dimension.25}",
+          "type": "spacing"
+        }
+      }
+    },
+    "leyend": {
+      "default": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt-tt}",
+          "fontWeight": "{fontWeights.fakt-tt-normal}",
+          "fontSize": "{fontSize.87}"
+        },
+        "type": "typography"
       }
     }
   }
