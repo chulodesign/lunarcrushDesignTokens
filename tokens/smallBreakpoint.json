@@ -75,34 +75,6 @@
           "description": "space between containers"
         }
       }
-    },
-    "chart": {
-      "leyend": {
-        "spaceAround": {
-          "value": "{core.dimension.50}, {core.dimension.0}",
-          "type": "spacing"
-        },
-        "spaceBetween": {
-          "value": "{button.s.spacing.spaceBetween}",
-          "type": "spacing"
-        }
-      }
-    },
-    "charts": {
-      "leyend": {
-        "value": {
-          "fontFamily": "{core.fontFamilies.fakt-tt}",
-          "fontWeight": "{fontWeights.fakt-tt-normal}",
-          "fontSize": "{fontSize.75}"
-        },
-        "type": "typography"
-      }
-    },
-    "icon": {
-      "small": {
-        "value": "{core.dimension.75}",
-        "type": "sizing"
-      }
     }
   }
 }

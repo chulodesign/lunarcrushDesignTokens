@@ -32,6 +32,10 @@
       "action": {
         "value": "{core.boder-radius.pill}",
         "type": "borderRadius"
+      },
+      "small": {
+        "value": "{core.dimension.50}",
+        "type": "borderRadius"
       }
     },
     "size": {
@@ -144,6 +148,12 @@
                 "type": "color"
               }
             }
+          }
+        },
+        "general": {
+          "hover": {
+            "value": "#677d8033",
+            "type": "color"
           }
         }
       },

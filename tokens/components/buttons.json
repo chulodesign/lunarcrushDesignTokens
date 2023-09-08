@@ -86,6 +86,10 @@
           "value": "{core.dimension.200}",
           "type": "sizing"
         }
+      },
+      "hover": {
+        "value": "#",
+        "type": "color"
       }
     },
     "link": {

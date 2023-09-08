@@ -50,8 +50,8 @@
         }
       }
     },
-    "pageTitle": {
-      "default": {
+    "typography": {
+      "pageTitle": {
         "value": {
           "fontFamily": "{core.fontFamilies.fakt-tt}",
           "fontWeight": "{fontWeights.fakt-tt-normal}",
@@ -59,19 +59,19 @@
         },
         "type": "typography"
       },
-      "space": {
-        "value": "{core.dimension.100}, {core.dimension.0}",
-        "type": "spacing"
-      }
-    },
-    "chartAxys": {
-      "default": {
+      "chartAxys": {
         "value": {
           "fontFamily": "{core.fontFamilies.fakt-tt}",
           "fontWeight": "{fontWeights.fakt-tt-normal}",
           "fontSize": "{fontSize.87}"
         },
         "type": "typography"
+      }
+    },
+    "pageTitle": {
+      "space": {
+        "value": "{core.dimension.100}, {core.dimension.0}",
+        "type": "spacing"
       }
     },
     "page": {
@@ -97,26 +97,16 @@
         "description": "this token defines the spacing between elements inside a container"
       }
     },
-    "chart": {
-      "leyend": {
-        "spaceAround": {
-          "value": "{core.dimension.75}, {core.dimension.0}",
-          "type": "spacing"
-        },
-        "spaceBetween": {
-          "value": "{core.dimension.25}",
-          "type": "spacing"
-        }
+    "dropDown": {
+      "spaceAround": {
+        "value": "{core.dimension.50}, {core.dimension.75}, {core.dimension.50}, {core.dimension.100}",
+        "type": "spacing"
       }
     },
-    "leyend": {
-      "default": {
-        "value": {
-          "fontFamily": "{core.fontFamilies.fakt-tt}",
-          "fontWeight": "{fontWeights.fakt-tt-normal}",
-          "fontSize": "{fontSize.87}"
-        },
-        "type": "typography"
+    "chart": {
+      "spaceBetween": {
+        "value": "{core.dimension.75}",
+        "type": "spacing"
       }
     }
   }
