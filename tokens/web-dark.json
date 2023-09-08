@@ -161,6 +161,28 @@
         "interactions": {
           "value": "{core.pinkFlamingo.500}",
           "type": "color"
+        },
+        "usElections": {
+          "binden": {
+            "value": "#80bdff",
+            "type": "color"
+          },
+          "trump": {
+            "value": "#E81B23",
+            "type": "color"
+          },
+          "kennedy": {
+            "value": "#FFC300",
+            "type": "color"
+          },
+          "deSantis": {
+            "value": "#FF6700",
+            "type": "color"
+          },
+          "williamson": {
+            "value": "#E6E6FA",
+            "type": "color"
+          }
         }
       },
       "bg": {
