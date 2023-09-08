@@ -5,7 +5,15 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core": "enabled",
-      "web-dark": "enabled"
+      "web-dark": "enabled",
+      "brand-dark": "enabled",
+      "components": "enabled",
+      "mediumBreakpoint": "enabled",
+      "smallBreakpoint": "enabled",
+      "components/nav": "enabled",
+      "components/row": "enabled",
+      "components/buttons": "enabled",
+      "largeBreakpoint": "enabled"
     }
   }
 ]

@@ -148,8 +148,10 @@
         }
       },
       "boder": {
-        "value": "{core.blueSmoke.50-15%opacity}",
-        "type": "color"
+        "default": {
+          "value": "{core.blueSmoke.50-15%opacity}",
+          "type": "color"
+        }
       },
       "dataViz": {
         "rank": {
@@ -236,7 +238,7 @@
     },
     "border": {
       "value": {
-        "color": "{semantic.color.boder}",
+        "color": "{semantic.color.boder.default}",
         "width": "1px",
         "style": "solid"
       },
