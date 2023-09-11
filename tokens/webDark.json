@@ -148,6 +148,12 @@
                 "type": "color"
               }
             }
+          },
+          "unselected": {
+            "default": {
+              "value": "{core.blueSmoke.500}",
+              "type": "color"
+            }
           }
         },
         "general": {

@@ -160,6 +160,24 @@
         "value": "{row.spacing.spaceAround.s}",
         "type": "spacing"
       }
+    },
+    "tabs": {
+      "spaceAround": {
+        "value": "{core.dimension.75}",
+        "type": "spacing"
+      }
+    },
+    "action": {
+      "tab": {
+        "default": {
+          "value": {
+            "fontFamily": "{core.fontFamilies.fakt}",
+            "fontWeight": "{fontWeights.fakt-semiBold}",
+            "fontSize": "{fontSize.87}"
+          },
+          "type": "typography"
+        }
+      }
     }
   }
 }

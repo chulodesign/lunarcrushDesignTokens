@@ -24,8 +24,10 @@
           "type": "spacing"
         }
       }
-    },
-    "smallBreak": {
+    }
+  },
+  "smallBreak": {
+    "button": {
       "s": {
         "value": {
           "fontFamily": "{core.fontFamilies.fakt-tt}",
@@ -42,25 +44,17 @@
         },
         "type": "typography"
       }
-    }
-  },
-  "pageTitle": {
-    "smallBreakpoint": {
-      "title": {
-        "value": "{core.dimension.50}, {core.dimension.0}",
-        "type": "spacing"
+    },
+    "pageTitle": {
+      "default": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt-tt}",
+          "fontWeight": "{fontWeights.fakt-tt-normal}",
+          "fontSize": "{fontSize.150}"
+        },
+        "type": "typography"
       }
     },
-    "smallBreak": {
-      "value": {
-        "fontFamily": "{core.fontFamilies.fakt-tt}",
-        "fontWeight": "{fontWeights.fakt-tt-normal}",
-        "fontSize": "{fontSize.150}"
-      },
-      "type": "typography"
-    }
-  },
-  "smallBreak": {
     "page": {
       "spaceAround": {
         "default": {
@@ -80,21 +74,7 @@
       "spaceBetween": {
         "value": "{core.dimension.25}",
         "type": "spacing"
-      }
-    },
-    "widget": {
-      "spaceAround": {
-        "value": "{core.dimension.100}",
-        "type": "spacing"
       },
-      "spaceBetween": {
-        "value": "{core.dimension.50}",
-        "type": "spacing"
-      }
-    }
-  },
-  "smallBreakpoints": {
-    "ads": {
       "entityName": {
         "value": {
           "fontFamily": "{core.fontFamilies.fakt-tt}",
@@ -110,6 +90,34 @@
           "fontSize": "{fontSize.87}"
         },
         "type": "typography"
+      }
+    },
+    "widget": {
+      "spaceAround": {
+        "value": "{core.dimension.100}",
+        "type": "spacing"
+      },
+      "spaceBetween": {
+        "value": "{core.dimension.50}",
+        "type": "spacing"
+      }
+    },
+    "tabs": {
+      "default": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt}",
+          "fontWeight": "{fontWeights.fakt-semiBold}",
+          "fontSize": "{fontSize.75}"
+        },
+        "type": "typography"
+      }
+    }
+  },
+  "pageTitle": {
+    "smallBreakpoint": {
+      "title": {
+        "value": "{core.dimension.50}, {core.dimension.0}",
+        "type": "spacing"
       }
     }
   }
