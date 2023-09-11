@@ -154,6 +154,12 @@
               "value": "{core.blueSmoke.500}",
               "type": "color"
             }
+          },
+          "tabs": {
+            "active": {
+              "value": "{core.blueSmoke.800}",
+              "type": "color"
+            }
           }
         },
         "general": {
