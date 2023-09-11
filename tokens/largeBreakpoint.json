@@ -108,6 +108,58 @@
         "value": "{core.dimension.75}",
         "type": "spacing"
       }
+    },
+    "tooltip": {
+      "spaceAround": {
+        "value": "{core.dimension.100}",
+        "type": "spacing"
+      },
+      "spaceBetween": {
+        "value": "{core.dimension.100}",
+        "type": "spacing"
+      },
+      "title": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt}",
+          "fontWeight": "{fontWeights.fakt-semiBold}",
+          "fontSize": "{fontSize.100}"
+        },
+        "type": "typography"
+      },
+      "description": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt-tt}",
+          "fontWeight": "{fontWeights.fakt-tt-normal}",
+          "fontSize": "{fontSize.100}"
+        },
+        "type": "typography"
+      }
+    },
+    "ads": {
+      "entityName": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt-tt}",
+          "fontWeight": "{fontWeights.fakt-tt-normal}",
+          "fontSize": "{fontSize.87}"
+        },
+        "type": "typography"
+      },
+      "copy": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt-tt}",
+          "fontWeight": "{fontWeights.fakt-tt-normal}",
+          "fontSize": "{fontSize.100}"
+        },
+        "type": "typography"
+      },
+      "spaceBetween": {
+        "value": "{core.dimension.100}",
+        "type": "spacing"
+      },
+      "spaceAround": {
+        "value": "{row.spacing.spaceAround.s}",
+        "type": "spacing"
+      }
     }
   }
 }
