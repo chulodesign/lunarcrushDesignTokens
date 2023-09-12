@@ -169,12 +169,6 @@
           }
         }
       },
-      "boder": {
-        "default": {
-          "value": "{core.blueSmoke.50-15%opacity}",
-          "type": "color"
-        }
-      },
       "dataViz": {
         "rank": {
           "value": "{core.lochmara.500}",
@@ -329,6 +323,34 @@
         },
         "type": "typography"
       }
+    },
+    "link": {
+      "small": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt-tt}",
+          "fontWeight": "{fontWeights.fakt-tt-normal}",
+          "fontSize": "{fontSize.75}"
+        },
+        "type": "typography"
+      }
+    },
+    "row": {
+      "default": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt-tt}",
+          "fontWeight": "{fontWeights.fakt-tt-normal}",
+          "fontSize": "{fontSize.100}"
+        },
+        "type": "typography"
+      }
+    },
+    "superScript": {
+      "value": {
+        "fontFamily": "{core.fontFamilies.fakt-tt}",
+        "fontWeight": "{fontWeights.fakt-tt-normal}",
+        "fontSize": "{fontSize.75}"
+      },
+      "type": "typography"
     }
   }
 }
