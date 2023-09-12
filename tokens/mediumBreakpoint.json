@@ -1,1 +1,10 @@
-{}
+{
+  "mediumBreak": {
+    "nav": {
+      "searchBarWidth": {
+        "value": "458px",
+        "type": "sizing"
+      }
+    }
+  }
+}

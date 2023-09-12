@@ -1,34 +1,7 @@
 {
-  "button": {
-    "m": {
-      "spacing": {
-        "spaceAround": {
-          "value": "{core.dimension.75}, {core.dimension.150}",
-          "type": "spacing",
-          "description": "definition of the padding of a medium button at a small breakpoint (375)"
-        },
-        "spaceBetween": {
-          "value": "{core.dimension.50}",
-          "type": "spacing"
-        }
-      }
-    },
-    "s": {
-      "spacing": {
-        "spaceBetween": {
-          "value": "{core.dimension.25}",
-          "type": "spacing"
-        },
-        "spaceAround": {
-          "value": "{core.dimension.50}, {core.dimension.100}",
-          "type": "spacing"
-        }
-      }
-    }
-  },
   "smallBreak": {
     "button": {
-      "s": {
+      "m": {
         "value": {
           "fontFamily": "{core.fontFamilies.fakt-tt}",
           "fontWeight": "{fontWeights.fakt-semiBold}",
@@ -36,7 +9,7 @@
         },
         "type": "typography"
       },
-      "m": {
+      "s": {
         "value": {
           "fontFamily": "{core.fontFamilies.fakt-tt}",
           "fontWeight": "{fontWeights.fakt-semiBold}",
@@ -53,6 +26,10 @@
           "fontSize": "{fontSize.150}"
         },
         "type": "typography"
+      },
+      "spaceAround": {
+        "value": "{core.dimension.50}, {core.dimension.0}",
+        "type": "spacing"
       }
     },
     "page": {
@@ -111,12 +88,20 @@
         },
         "type": "typography"
       }
-    }
-  },
-  "pageTitle": {
-    "smallBreakpoint": {
-      "title": {
-        "value": "{core.dimension.50}, {core.dimension.0}",
+    },
+    "nav": {
+      "spaceAround": {
+        "value": "{core.spacing.spaceAround.xs}, {core.spacing.spaceAround.s}",
+        "type": "spacing"
+      },
+      "spaceBetween": {
+        "value": "{core.dimension.100}",
+        "type": "spacing"
+      }
+    },
+    "expandedNav": {
+      "spaceAround": {
+        "value": "{core.dimension.150}",
         "type": "spacing"
       }
     }

@@ -1,25 +1,5 @@
 {
   "nav": {
-    "lbreakpoint": {
-      "spaceAround": {
-        "value": "{core.spacing.spaceAround.s}, {core.spacing.spaceAround.m}",
-        "type": "spacing"
-      },
-      "spaceBetween": {
-        "value": "{core.spacing.spaceBetween.m}",
-        "type": "spacing"
-      }
-    },
-    "sbreakpoint": {
-      "spaceAround": {
-        "value": "{core.spacing.spaceAround.xs}, {core.spacing.spaceAround.s}",
-        "type": "spacing"
-      },
-      "spaceBetween": {
-        "value": "{core.dimension.100}",
-        "type": "spacing"
-      }
-    },
     "icon-size": {
       "m": {
         "value": "{core.dimension.150}",
