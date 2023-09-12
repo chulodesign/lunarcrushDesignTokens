@@ -9,7 +9,6 @@
       "components": "enabled",
       "mediumBreakpoint": "enabled",
       "smallBreakpoint": "enabled",
-      "components/nav": "enabled",
       "components/row": "enabled",
       "components/buttons": "enabled",
       "largeBreakpoint": "enabled",

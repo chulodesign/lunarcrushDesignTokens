@@ -97,6 +97,12 @@
       "spaceBetween": {
         "value": "{core.dimension.100}",
         "type": "spacing"
+      },
+      "avatar-size": {
+        "default": {
+          "value": "{core.dimension.200}",
+          "type": "sizing"
+        }
       }
     },
     "expandedNav": {

@@ -6,7 +6,6 @@
     "components",
     "components/buttons",
     "components/row",
-    "components/nav",
     "mediumBreakpoint",
     "smallBreakpoint",
     "largeBreakpoint"
