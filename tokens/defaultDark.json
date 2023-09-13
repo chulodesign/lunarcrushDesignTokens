@@ -452,7 +452,7 @@
       },
       "type": "typography",
       "spaceAround": {
-        "value": "{core.dimension.50}, {core.dimension.0}",
+        "value": "{core.dimension.50}",
         "type": "spacing"
       }
     }
