@@ -191,12 +191,6 @@
       "searchBarWidth": {
         "value": "600px",
         "type": "spacing"
-      },
-      "avatarSize": {
-        "default": {
-          "value": "{core.dimension.250}",
-          "type": "sizing"
-        }
       }
     },
     "expandedNav": {
@@ -239,20 +233,6 @@
           "fontSize": "{fontSize.100}"
         },
         "type": "typography"
-      }
-    }
-  },
-  "largeNav": {
-    "nav": {
-      "iconSize": {
-        "m": {
-          "value": "{core.dimension.150}",
-          "type": "sizing"
-        },
-        "l": {
-          "value": "{core.dimension.250}",
-          "type": "sizing"
-        }
       }
     }
   }

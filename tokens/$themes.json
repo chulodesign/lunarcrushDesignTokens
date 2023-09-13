@@ -12,7 +12,7 @@
       "components/row": "enabled",
       "components/buttons": "enabled",
       "largeBreakpoint": "enabled",
-      "webDark": "enabled"
+      "defaultDark": "enabled"
     }
   }
 ]

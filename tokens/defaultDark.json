@@ -176,6 +176,30 @@
               "value": "{core.blueSmoke.800}",
               "type": "color"
             }
+          },
+          "bottomNav": {
+            "fg": {
+              "selected": {
+                "value": "{core.aquamarine.500}",
+                "type": "color"
+              },
+              "unselected": {
+                "copy": {
+                  "value": "{core.blueSmoke.50}",
+                  "type": "color"
+                },
+                "icon": {
+                  "value": "{core.blueSmoke.400}",
+                  "type": "color"
+                }
+              }
+            },
+            "bg": {
+              "selected": {
+                "value": "{core.blueSmoke.800}",
+                "type": "color"
+              }
+            }
           }
         },
         "general": {
@@ -243,6 +267,14 @@
         "weak": {
           "value": "{core.blueSmoke.800}",
           "type": "color"
+        },
+        "tooltip": {
+          "value": "{core.blueSmoke.900}",
+          "type": "color"
+        },
+        "nav": {
+          "value": "{core.blueSmoke.900}",
+          "type": "color"
         }
       },
       "fg": {
@@ -267,7 +299,7 @@
           "type": "color"
         }
       },
-      "value1": {
+      "trend": {
         "negative": {
           "value": "{core.carnation.500}",
           "type": "color"
@@ -406,6 +438,24 @@
           "fontSize": "{fontSize.100}"
         },
         "type": "typography"
+      }
+    }
+  },
+  "nav": {
+    "avatarSize": {
+      "default": {
+        "value": "{core.dimension.250}",
+        "type": "sizing"
+      }
+    },
+    "iconSize": {
+      "medium": {
+        "value": "{core.dimension.150}",
+        "type": "sizing"
+      },
+      "large": {
+        "value": "{core.dimension.250}",
+        "type": "sizing"
       }
     }
   }
