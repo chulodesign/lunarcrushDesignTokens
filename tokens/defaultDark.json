@@ -452,8 +452,22 @@
       },
       "type": "typography",
       "spaceAround": {
-        "value": "{core.dimension.50}",
+        "value": "{core.dimension.50}, {core.dimension.0}",
         "type": "spacing"
+      }
+    },
+    "fieldName": {
+      "spaceAround": {
+        "value": "{core.dimension.25}, {core.dimension.0}",
+        "type": "spacing"
+      },
+      "default": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt-tt}",
+          "fontWeight": "{fontWeights.fakt-tt-normal}",
+          "fontSize": "{fontSize.100}"
+        },
+        "type": "typography"
       }
     }
   },
