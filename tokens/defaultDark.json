@@ -497,6 +497,26 @@
         "value": "{core.dimension.100}, {core.dimension.0}",
         "type": "spacing"
       }
+    },
+    "legal": {
+      "default": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt-tt}",
+          "fontWeight": "{fontWeights.fakt-tt-normal}",
+          "fontSize": "{fontSize.75}",
+          "textDecoration": "{core.text-decoration.none}"
+        },
+        "type": "typography"
+      },
+      "underline": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt-tt}",
+          "fontWeight": "{fontWeights.fakt-tt-normal}",
+          "fontSize": "{fontSize.75}",
+          "textDecoration": "{core.text-decoration.underline}"
+        },
+        "type": "typography"
+      }
     }
   }
 }
