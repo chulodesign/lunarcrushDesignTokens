@@ -1,31 +1,47 @@
 {
   "semantic": {
-    "space": {
-      "page": {
-        "spaceAround": {
-          "none": {
-            "type": "spacing",
-            "value": "{core.dimension.0}"
-          },
-          "default": {
-            "value": "{core.dimension.150}",
-            "type": "spacing"
-          }
+    "page": {
+      "spaceAround": {
+        "none": {
+          "type": "spacing",
+          "value": "{core.dimension.0}"
         },
-        "spaceBetween": {
-          "default": {
-            "value": "{core.dimension.150}",
-            "type": "spacing"
-          }
+        "default": {
+          "value": "{core.dimension.150}",
+          "type": "spacing"
         }
       },
-      "title": {
-        "spaceAround": {
-          "widget": {
-            "value": "{core.dimension.50}, {core.dimension.0}",
-            "type": "spacing"
-          }
+      "spaceBetween": {
+        "default": {
+          "value": "{core.dimension.150}",
+          "type": "spacing"
         }
+      }
+    },
+    "title": {
+      "spaceAround": {
+        "widget": {
+          "value": "{core.dimension.50}, {core.dimension.0}",
+          "type": "spacing"
+        }
+      },
+      "widget": {
+        "font": {
+          "value": {
+            "fontFamily": "{core.fontFamilies.fakt-tt}",
+            "fontWeight": "{fontWeights.fakt-tt-medium}",
+            "fontSize": "{fontSize.125}"
+          },
+          "type": "typography"
+        }
+      },
+      "page": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt-tt}",
+          "fontWeight": "{fontWeights.fakt-tt-normal}",
+          "fontSize": "{fontSize.212}"
+        },
+        "type": "typography"
       }
     },
     "border-radius": {
@@ -272,26 +288,6 @@
         }
       }
     },
-    "title": {
-      "widget": {
-        "font": {
-          "value": {
-            "fontFamily": "{core.fontFamilies.fakt-tt}",
-            "fontWeight": "{fontWeights.fakt-tt-medium}",
-            "fontSize": "{fontSize.125}"
-          },
-          "type": "typography"
-        }
-      },
-      "page": {
-        "value": {
-          "fontFamily": "{core.fontFamilies.fakt-tt}",
-          "fontWeight": "{fontWeights.fakt-tt-normal}",
-          "fontSize": "{fontSize.212}"
-        },
-        "type": "typography"
-      }
-    },
     "border": {
       "value": {
         "color": "{semantic.color.boder.default}",
@@ -369,6 +365,22 @@
         "fontSize": "{fontSize.75}"
       },
       "type": "typography"
+    },
+    "card": {
+      "spaceBetween": {
+        "value": "{core.dimension.50}",
+        "type": "spacing"
+      },
+      "spaceAround": {
+        "value": "{core.dimension.100}",
+        "type": "spacing"
+      }
+    },
+    "borderRadius": {
+      "card": {
+        "value": "{core.dimension.100}",
+        "type": "borderRadius"
+      }
     }
   }
 }
