@@ -23,6 +23,10 @@
         "widget": {
           "value": "{core.dimension.50}, {core.dimension.0}",
           "type": "spacing"
+        },
+        "default": {
+          "value": "{core.dimension.75}, {core.dimension.0}",
+          "type": "spacing"
         }
       },
       "widget": {
@@ -328,35 +332,13 @@
       },
       "type": "border"
     },
-    "card": {
-      "header": {
-        "copy": {
-          "name": {
-            "value": {
-              "fontFamily": "{core.fontFamilies.fakt-tt}",
-              "fontWeight": "{fontWeights.fakt-tt-normal}",
-              "fontSize": "{fontSize.87}"
-            },
-            "type": "typography"
-          },
-          "metric": {
-            "value": {
-              "fontFamily": "{core.fontFamilies.fakt-tt}",
-              "fontWeight": "{fontWeights.fakt-tt-normal}",
-              "fontSize": "{fontSize.75}"
-            },
-            "type": "typography"
-          }
-        }
+    "itemName": {
+      "value": {
+        "fontFamily": "{core.fontFamilies.fakt-tt}",
+        "fontWeight": "{fontWeights.fakt-tt-normal}",
+        "fontSize": "{fontSize.87}"
       },
-      "spaceBetween": {
-        "value": "{core.dimension.50}",
-        "type": "spacing"
-      },
-      "spaceAround": {
-        "value": "{core.dimension.75}, {core.dimension.100}",
-        "type": "spacing"
-      }
+      "type": "typography"
     },
     "handler": {
       "value": {
@@ -419,6 +401,16 @@
         "fontSize": "{fontSize.75}"
       },
       "type": "typography"
+    },
+    "card": {
+      "spaceBetween": {
+        "value": "{core.dimension.50}",
+        "type": "spacing"
+      },
+      "spaceAround": {
+        "value": "{core.dimension.100}",
+        "type": "spacing"
+      }
     },
     "borderRadius": {
       "card": {
