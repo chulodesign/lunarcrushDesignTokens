@@ -199,6 +199,24 @@
             "value": "#E6E6FA",
             "type": "color"
           }
+        },
+        "trending": {
+          "outstanding": {
+            "value": "#FE6D1B",
+            "type": "color"
+          },
+          "high": {
+            "value": "#2DFB06",
+            "type": "color"
+          },
+          "medium": {
+            "value": "#B6C653",
+            "type": "color"
+          },
+          "low": {
+            "value": "{core.blueSmoke.400}",
+            "type": "color"
+          }
         }
       },
       "bg": {
