@@ -381,6 +381,32 @@
         "value": "{core.dimension.100}",
         "type": "borderRadius"
       }
+    },
+    "tooltip": {
+      "spaceAround": {
+        "value": "{core.dimension.100}",
+        "type": "spacing"
+      },
+      "spaceBetween": {
+        "value": "{core.dimension.100}",
+        "type": "spacing"
+      },
+      "title": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt}",
+          "fontWeight": "{fontWeights.fakt-semiBold}",
+          "fontSize": "{fontSize.100}"
+        },
+        "type": "typography"
+      },
+      "copy": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt-tt}",
+          "fontWeight": "{fontWeights.fakt-tt-normal}",
+          "fontSize": "{fontSize.100}"
+        },
+        "type": "typography"
+      }
     }
   }
 }
