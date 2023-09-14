@@ -10,7 +10,6 @@
       "mediumBreakpoint": "enabled",
       "smallBreakpoint": "enabled",
       "components/row": "enabled",
-      "components/buttons": "enabled",
       "largeBreakpoint": "enabled",
       "defaultDark": "enabled"
     }

@@ -48,23 +48,13 @@
         "type": "typography"
       }
     },
-    "border-radius": {
-      "action": {
-        "value": "{core.boder-radius.pill}",
-        "type": "borderRadius"
-      },
-      "small": {
-        "value": "{core.dimension.50}",
-        "type": "borderRadius"
-      }
-    },
     "size": {
       "icon": {
         "xs": {
           "value": "{core.dimension.75}",
           "type": "sizing"
         },
-        "s": {
+        "small": {
           "value": "{core.dimension.100}",
           "type": "sizing"
         },
@@ -97,11 +87,11 @@
         "cta": {
           "primary": {
             "default": {
-              "background-color": {
+              "bg": {
                 "value": "{core.aquamarine.500}",
                 "type": "color"
               },
-              "text-color": {
+              "text": {
                 "value": "{core.blueSmoke.900}",
                 "type": "color"
               }
@@ -113,11 +103,11 @@
               }
             },
             "inactive": {
-              "background-color": {
+              "bg": {
                 "value": "{core.blueSmoke.800}",
                 "type": "color"
               },
-              "text-color": {
+              "text": {
                 "value": "{core.blueSmoke.600}",
                 "type": "color"
               }
@@ -125,31 +115,31 @@
           },
           "secondary": {
             "default": {
-              "border-color": {
+              "border": {
                 "value": "{core.blueSmoke.50-15%opacity}",
                 "type": "color"
               },
-              "text-color": {
+              "text": {
                 "value": "{core.blueSmoke.50}",
                 "type": "color"
               }
             },
             "hover": {
-              "border-color": {
+              "border": {
                 "value": "{core.aquamarine.400}",
                 "type": "color"
               },
-              "text-color": {
+              "text": {
                 "value": "{core.aquamarine.400}",
                 "type": "color"
               }
             },
             "inactive": {
-              "text-color": {
+              "text": {
                 "value": "{core.blueSmoke.700}",
                 "type": "color"
               },
-              "border-color": {
+              "border": {
                 "value": "{core.blueSmoke.50-15%opacity}",
                 "type": "color"
               }
@@ -204,6 +194,20 @@
                   }
                 }
               }
+            }
+          },
+          "link": {
+            "default": {
+              "value": "{core.blueSmoke.50}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{core.aquamarine.400}",
+              "type": "color"
+            },
+            "inactive": {
+              "value": "{core.blueSmoke.700}",
+              "type": "color"
             }
           }
         },
@@ -443,10 +447,8 @@
             "type": "spacing"
           }
         }
-      }
-    },
-    "borderRadius": {
-      "card": {
+      },
+      "medium": {
         "value": "{core.dimension.100}",
         "type": "borderRadius"
       }
@@ -617,10 +619,38 @@
         "type": "typography"
       }
     },
-    "button": {
+    "cta": {
       "medium": {
         "value": "{core.boder-radius.pill}",
         "type": "borderRadius"
+      },
+      "small": {
+        "value": "{core.dimension.50}",
+        "type": "borderRadius"
+      }
+    },
+    "button": {
+      "small": {
+        "spaceBetween": {
+          "largeBreak": {
+            "value": "{core.dimension.25}",
+            "type": "spacing"
+          },
+          "smallBreak": {
+            "value": "{core.dimension.25}",
+            "type": "spacing"
+          }
+        },
+        "spaceAround": {
+          "largeBreak": {
+            "value": "{core.dimension.50}, {core.dimension.100}",
+            "type": "spacing"
+          },
+          "smallBreak": {
+            "value": "{core.dimension.50}, {core.dimension.100}",
+            "type": "spacing"
+          }
+        }
       }
     }
   }

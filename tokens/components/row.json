@@ -37,7 +37,7 @@
     "border-color": {
       "top": {
         "value": {
-          "color": "{semantic.color.action.cta.secondary.default.border-color}",
+          "color": "{semantic.color.action.cta.secondary.default.border}",
           "width": "1px",
           "style": "solid"
         },
@@ -47,13 +47,13 @@
     "cta": {
       "default": {
         "text-color": {
-          "value": "{semantic.color.action.cta.secondary.default.text-color}",
+          "value": "{semantic.color.action.cta.secondary.default.text}",
           "type": "color"
         }
       },
       "hover": {
         "text-color": {
-          "value": "{semantic.color.action.cta.secondary.hover.text-color}",
+          "value": "{semantic.color.action.cta.secondary.hover.text}",
           "type": "color"
         }
       },
