@@ -411,6 +411,18 @@
       "spaceAround": {
         "value": "{core.dimension.100}",
         "type": "spacing"
+      },
+      "form": {
+        "spaceBetween": {
+          "row": {
+            "value": "{core.dimension.250}",
+            "type": "spacing"
+          },
+          "items": {
+            "value": "{core.dimension.50}",
+            "type": "spacing"
+          }
+        }
       }
     },
     "borderRadius": {
