@@ -547,7 +547,7 @@
       "value": {
         "fontFamily": "{core.fontFamilies.fakt}",
         "fontWeight": "{fontWeights.fakt-semiBold}",
-        "fontSize": "{fontSize.75}"
+        "fontSize": "{fontSize.87}"
       },
       "type": "typography"
     }
