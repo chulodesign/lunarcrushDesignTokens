@@ -365,14 +365,34 @@
       },
       "type": "typography"
     },
-    "cta": {
-      "m": {
-        "value": {
-          "fontFamily": "{core.fontFamilies.fakt}",
-          "fontWeight": "{fontWeights.fakt-semiBold}",
-          "fontSize": "{fontSize.100}"
-        },
-        "type": "typography"
+    "action": {
+      "cta": {
+        "button": {
+          "medium": {
+            "value": {
+              "fontFamily": "{core.fontFamilies.fakt}",
+              "fontWeight": "{fontWeights.fakt-semiBold}",
+              "fontSize": "{fontSize.100}"
+            },
+            "type": "typography"
+          },
+          "xsmall": {
+            "value": {
+              "fontFamily": "{core.fontFamilies.fakt}",
+              "fontWeight": "{fontWeights.fakt-semiBold}",
+              "fontSize": "{fontSize.75}"
+            },
+            "type": "typography"
+          },
+          "small": {
+            "value": {
+              "fontFamily": "{core.fontFamilies.fakt}",
+              "fontWeight": "{fontWeights.fakt-semiBold}",
+              "fontSize": "{fontSize.87}"
+            },
+            "type": "typography"
+          }
+        }
       }
     },
     "link": {
@@ -562,6 +582,46 @@
         "fontSize": "{fontSize.87}"
       },
       "type": "typography"
+    },
+    "inputs": {
+      "xlarge": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt-tt}",
+          "fontWeight": "{fontWeights.fakt-tt-normal}",
+          "fontSize": "{fontSize.150}"
+        },
+        "type": "typography"
+      },
+      "large": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt-tt}",
+          "fontWeight": "{fontWeights.fakt-tt-normal}",
+          "fontSize": "{fontSize.124}"
+        },
+        "type": "typography"
+      },
+      "medium": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt-tt}",
+          "fontWeight": "{fontWeights.fakt-tt-normal}",
+          "fontSize": "{fontSize.100}"
+        },
+        "type": "typography"
+      },
+      "small": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt-tt}",
+          "fontWeight": "{fontWeights.fakt-tt-normal}",
+          "fontSize": "{fontSize.87}"
+        },
+        "type": "typography"
+      }
+    },
+    "button": {
+      "medium": {
+        "value": "{core.boder-radius.pill}",
+        "type": "borderRadius"
+      }
     }
   }
 }

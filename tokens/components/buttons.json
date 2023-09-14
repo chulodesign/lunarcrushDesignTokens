@@ -121,5 +121,13 @@
         "type": "typography"
       }
     }
+  },
+  "semantic": {
+    "button": {
+      "border-radius-copy": {
+        "value": "{core.boder-radius.pill}",
+        "type": "borderRadius"
+      }
+    }
   }
 }
