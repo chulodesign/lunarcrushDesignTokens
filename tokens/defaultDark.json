@@ -652,6 +652,36 @@
           }
         }
       }
+    },
+    "inputField": {
+      "spaceAround": {
+        "medium": {
+          "value": "{core.dimension.75}",
+          "type": "spacing"
+        }
+      }
+    },
+    "searchField": {
+      "spaceAround": {
+        "largeBreak": {
+          "value": "{core.dimension.50}, {core.dimension.75}",
+          "type": "spacing"
+        },
+        "smallBreak": {
+          "value": "{core.dimension.37}, {core.dimension.75}",
+          "type": "spacing"
+        }
+      },
+      "spaceBetween": {
+        "largeBreak": {
+          "value": "{core.dimension.50}",
+          "type": "spacing"
+        },
+        "smallBreak": {
+          "value": "{core.dimension.25}",
+          "type": "spacing"
+        }
+      }
     }
   }
 }

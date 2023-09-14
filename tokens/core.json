@@ -120,6 +120,10 @@
         "type": "dimension",
         "value": "{core.dimension.base}*25"
       },
+      "37": {
+        "type": "dimension",
+        "value": "{core.dimension.base}*37.5"
+      },
       "50": {
         "type": "dimension",
         "value": "{core.dimension.base}*50"
