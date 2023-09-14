@@ -190,6 +190,21 @@
                 "type": "color"
               }
             }
+          },
+          "pill": {
+            "bg": {
+              "value": "{core.blueSmoke.800}",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "alpha",
+                    "value": ".5",
+                    "space": "lch"
+                  }
+                }
+              }
+            }
           }
         },
         "general": {
@@ -517,6 +532,24 @@
         },
         "type": "typography"
       }
+    },
+    "pills": {
+      "spaceAround": {
+        "value": "{core.dimension.50}, {core.dimension.100}",
+        "type": "spacing"
+      },
+      "spaceBetween": {
+        "value": "{core.dimension.25}",
+        "type": "spacing"
+      }
+    },
+    "pill": {
+      "value": {
+        "fontFamily": "{core.fontFamilies.fakt}",
+        "fontWeight": "{fontWeights.fakt-semiBold}",
+        "fontSize": "{fontSize.75}"
+      },
+      "type": "typography"
     }
   }
 }
