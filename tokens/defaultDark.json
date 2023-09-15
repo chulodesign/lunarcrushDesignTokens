@@ -663,6 +663,28 @@
             "type": "spacing"
           }
         }
+      },
+      "large": {
+        "spaceBetween": {
+          "largeBreak": {
+            "value": "{core.dimension.50}",
+            "type": "spacing"
+          },
+          "smallBreak": {
+            "value": "{core.dimension.50}",
+            "type": "spacing"
+          }
+        },
+        "spaceAround": {
+          "largeBreak": {
+            "value": "{core.dimension.100}, {core.dimension.150}",
+            "type": "spacing"
+          },
+          "smallBreak": {
+            "value": "{core.dimension.75}, {core.dimension.150}",
+            "type": "spacing"
+          }
+        }
       }
     },
     "inputField": {
