@@ -525,6 +525,26 @@
           "value": "{core.dimension.250}",
           "type": "sizing"
         }
+      },
+      "largeBreak": {
+        "spaceBetween": {
+          "value": "{core.dimension.150}",
+          "type": "spacing"
+        },
+        "spaceAround": {
+          "value": "{core.dimension.100}, {core.dimension.150}",
+          "type": "spacing"
+        }
+      },
+      "smallBreak": {
+        "spaceBetween": {
+          "value": "{core.dimension.100}",
+          "type": "spacing"
+        },
+        "spaceAround": {
+          "value": "{core.dimension.100}, {core.dimension.50}",
+          "type": "spacing"
+        }
       }
     },
     "content": {
@@ -663,28 +683,6 @@
             "type": "spacing"
           }
         }
-      },
-      "large": {
-        "spaceBetween": {
-          "largeBreak": {
-            "value": "{core.dimension.50}",
-            "type": "spacing"
-          },
-          "smallBreak": {
-            "value": "{core.dimension.50}",
-            "type": "spacing"
-          }
-        },
-        "spaceAround": {
-          "largeBreak": {
-            "value": "{core.dimension.100}, {core.dimension.150}",
-            "type": "spacing"
-          },
-          "smallBreak": {
-            "value": "{core.dimension.75}, {core.dimension.150}",
-            "type": "spacing"
-          }
-        }
       }
     },
     "inputField": {
@@ -723,6 +721,34 @@
           "value": "{core.dimension.50}, {core.dimension.75}",
           "type": "spacing"
         },
+        "spaceBetween": {
+          "value": "{core.dimension.50}",
+          "type": "spacing"
+        }
+      }
+    },
+    "section": {
+      "largeBreak": {
+        "spaceBetween": {
+          "value": "{core.dimension.150}",
+          "type": "spacing"
+        }
+      },
+      "smallBreak": {
+        "spaceBetween": {
+          "value": "{core.dimension.100}",
+          "type": "spacing"
+        }
+      }
+    },
+    "container": {
+      "largeBreak": {
+        "spaceBetween": {
+          "value": "{core.dimension.100}",
+          "type": "spacing"
+        }
+      },
+      "smallBreak": {
         "spaceBetween": {
           "value": "{core.dimension.50}",
           "type": "spacing"
