@@ -417,6 +417,14 @@
           "fontSize": "{fontSize.100}"
         },
         "type": "typography"
+      },
+      "spaceAround": {
+        "value": "{core.dimension.75}, {core.dimension.50}",
+        "type": "spacing"
+      },
+      "spaceBetween": {
+        "value": "{core.dimension.50}",
+        "type": "spacing"
       }
     },
     "superScript": {
