@@ -768,6 +768,44 @@
           "type": "spacing"
         }
       }
+    },
+    "table": {
+      "row": {
+        "spaceBetween": {
+          "largeBreak": {
+            "value": "{core.dimension.150}",
+            "type": "spacing"
+          }
+        },
+        "spaceAround": {
+          "largeBreak": {
+            "value": "{core.dimension.75}, {core.dimension.50}",
+            "type": "spacing"
+          }
+        }
+      },
+      "hader": {
+        "spaceBetween": {
+          "largeBreak": {
+            "value": "{core.dimension.150}",
+            "type": "spacing"
+          }
+        },
+        "spaceAround": {
+          "largeBreak": {
+            "value": "{core.dimension.100}, {core.dimension.50}",
+            "type": "spacing"
+          }
+        }
+      },
+      "header": {
+        "value": {
+          "color": "{core.blueSmoke.50-15%opacity}",
+          "width": "{core.boder-width.m}",
+          "style": "solid"
+        },
+        "type": "border"
+      }
     }
   },
   "dropdown": {
