@@ -549,6 +549,16 @@
           "value": "{core.dimension.100}, {core.dimension.50}",
           "type": "spacing"
         }
+      },
+      "searchFiled": {
+        "large": {
+          "value": "600px",
+          "type": "sizing"
+        },
+        "medium": {
+          "value": "458px",
+          "type": "sizing"
+        }
       }
     },
     "content": {
