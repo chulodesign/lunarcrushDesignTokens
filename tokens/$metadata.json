@@ -1,12 +1,6 @@
 {
   "tokenSetOrder": [
     "core",
-    "defaultDark",
-    "brand-dark",
-    "components",
-    "components/row",
-    "mediumBreakpoint",
-    "smallBreakpoint",
-    "largeBreakpoint"
+    "defaultDark"
   ]
 }
