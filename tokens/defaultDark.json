@@ -220,6 +220,18 @@
             "value": "#677d8033",
             "type": "color"
           }
+        },
+        "card": {
+          "selected": {
+            "bg": {
+              "value": "{core.blueSmoke.800}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{core.aquamarine.500}",
+              "type": "color"
+            }
+          }
         }
       },
       "dataViz": {
