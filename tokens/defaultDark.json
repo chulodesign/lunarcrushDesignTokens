@@ -308,6 +308,10 @@
         "nav": {
           "value": "{core.blueSmoke.900}",
           "type": "color"
+        },
+        "overlay": {
+          "value": "{core.blueSmoke.900-70%opacity(overlay)}",
+          "type": "color"
         }
       },
       "fg": {
@@ -770,6 +774,10 @@
       },
       "smallBreak": {
         "spaceBetween": {
+          "value": "{core.dimension.100}",
+          "type": "spacing"
+        },
+        "aspaceAround": {
           "value": "{core.dimension.100}",
           "type": "spacing"
         }
