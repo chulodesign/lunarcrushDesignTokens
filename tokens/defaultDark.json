@@ -212,12 +212,20 @@
             "inactive": {
               "value": "{core.blueSmoke.700}",
               "type": "color"
+            },
+            "active": {
+              "value": "{core.aquamarine.500}",
+              "type": "color"
             }
           }
         },
-        "general": {
-          "hover": {
+        "hover": {
+          "bg": {
             "value": "#677d8033",
+            "type": "color"
+          },
+          "text": {
+            "value": "{core.aquamarine.400}",
             "type": "color"
           }
         },
