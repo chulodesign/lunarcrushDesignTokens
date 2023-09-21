@@ -818,6 +818,30 @@
         },
         "type": "border"
       }
+    },
+    "ad": {
+      "banner": {
+        "spaceAround": {
+          "largeBreak": {
+            "value": "{core.dimension.75}, {core.dimension.50}",
+            "type": "spacing"
+          }
+        },
+        "spaceBetween": {
+          "largeBreak": {
+            "value": "{core.dimension.150}",
+            "type": "spacing"
+          }
+        }
+      }
+    },
+    "entity": {
+      "spaceBetween": {
+        "largeBreak": {
+          "value": "{core.dimension.50}",
+          "type": "spacing"
+        }
+      }
     }
   },
   "dropdown": {
