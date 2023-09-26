@@ -843,7 +843,7 @@
             "type": "spacing"
           },
           "smallBreak": {
-            "value": "{core.dimension.50}, {core.dimension.50}",
+            "value": "{core.dimension.50}, {core.dimension.100}",
             "type": "spacing"
           }
         },
@@ -863,6 +863,20 @@
       "spaceBetween": {
         "largeBreak": {
           "value": "{core.dimension.50}",
+          "type": "spacing"
+        }
+      }
+    },
+    "sideDrawer": {
+      "spaceBetween": {
+        "largeBreak": {
+          "value": "{core.dimension.0}",
+          "type": "spacing"
+        }
+      },
+      "spaceAround": {
+        "largebreak": {
+          "value": "{core.dimension.100}",
           "type": "spacing"
         }
       }
