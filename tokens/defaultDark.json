@@ -355,15 +355,19 @@
           "value": "{core.aquamarine.500}",
           "type": "color"
         }
-      }
-    },
-    "border": {
-      "value": {
-        "color": "{semantic.color.boder.default}",
-        "width": "1px",
-        "style": "solid"
       },
-      "type": "border"
+      "row": {
+        "bg": {
+          "hover": {
+            "value": "{core.blueSmoke.800}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{core.blueSmoke.900}",
+            "type": "color"
+          }
+        }
+      }
     },
     "itemName": {
       "value": {
@@ -453,6 +457,14 @@
       "spaceBetween": {
         "value": "{core.dimension.50}",
         "type": "spacing"
+      },
+      "cta": {
+        "value": {
+          "fontFamily": "{core.fontFamilies.fakt}",
+          "fontWeight": "{fontWeights.fakt-semiBold}",
+          "fontSize": "{fontSize.100}"
+        },
+        "type": "typography"
       }
     },
     "superScript": {
@@ -879,6 +891,16 @@
           "value": "{core.dimension.100}",
           "type": "spacing"
         }
+      }
+    },
+    "divider": {
+      "default": {
+        "value": {
+          "color": "{core.blueSmoke.50-15%opacity}",
+          "width": "1",
+          "style": "solid"
+        },
+        "type": "border"
       }
     }
   },
