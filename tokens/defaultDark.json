@@ -778,18 +778,22 @@
       }
     },
     "section": {
-      "largeBreak": {
-        "spaceBetween": {
+      "spaceBetween": {
+        "largeBreak": {
           "value": "{core.dimension.150}",
+          "type": "spacing"
+        },
+        "smallBreak": {
+          "value": "{core.dimension.100}",
           "type": "spacing"
         }
       },
-      "smallBreak": {
-        "spaceBetween": {
-          "value": "{core.dimension.100}",
+      "spaceAround": {
+        "largeBreak": {
+          "value": "{core.dimension.150}",
           "type": "spacing"
         },
-        "aspaceAround": {
+        "smallBreak": {
           "value": "{core.dimension.100}",
           "type": "spacing"
         }
