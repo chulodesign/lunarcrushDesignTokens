@@ -499,6 +499,16 @@
       "medium": {
         "value": "{core.dimension.100}",
         "type": "borderRadius"
+      },
+      "promo": {
+        "bg": {
+          "value": "{core.BlueViolet.600}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{core.BlueViolet.300}",
+          "type": "color"
+        }
       }
     },
     "tooltip": {

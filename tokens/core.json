@@ -368,6 +368,16 @@
         "value": "#18A0FB",
         "type": "color"
       }
+    },
+    "BlueViolet": {
+      "300": {
+        "value": "#4A3692",
+        "type": "color"
+      },
+      "600": {
+        "value": "#1F1C29",
+        "type": "color"
+      }
     }
   },
   "fontSize": {
