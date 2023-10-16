@@ -370,6 +370,10 @@
       }
     },
     "BlueViolet": {
+      "100": {
+        "value": "#7968b6",
+        "type": "color"
+      },
       "300": {
         "value": "#4A3692",
         "type": "color"

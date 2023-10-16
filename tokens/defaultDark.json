@@ -578,7 +578,7 @@
       },
       "largeBreak": {
         "spaceBetween": {
-          "value": "{core.dimension.150}",
+          "value": "{core.dimension.100}",
           "type": "spacing"
         },
         "spaceAround": {
